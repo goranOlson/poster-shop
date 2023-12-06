@@ -114,6 +114,7 @@ footer {
    flex-direction: row;
    justify-content: space-between;
 }
+
 footer > .column {
    width: 33.33%;
 }
@@ -122,7 +123,12 @@ footer ul {
    list-style: none;
    padding: 0;
 }
+
 footer a {
    color: white;
    text-decoration: none;
+}
+
+footer img {
+   margin-right: 4px;
 }

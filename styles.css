@@ -28,12 +28,12 @@ nav {
 
  main {
     background-color: black;
-    padding: 5% 16%;
+    padding: 6% 16%;
     display: flex;
     flex-direction: column;
  }
 
- .posters {
+ section.posters {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -66,13 +66,29 @@ nav {
     position: relative;
 }
 
- .poster.big > .info-txt {
-    padding: 12px;
-    padding-top: 0;
-    position: relative;
+.poster:not(.big) h1 {
+   font-size: 35px;
+   margin-top: 16px;
+   margin-bottom: 16px;
 }
 
- .poster button {
+ .poster.big > .info-txt {
+   height: 260px;;
+   padding: 12px;
+   padding-top: 0;
+   position: relative;
+}
+
+.poster.big h1 {
+   margin-bottom: 0;
+   font-size: 36px;
+}
+
+.poster.big p {
+   margin-bottom: 20px;
+}
+
+.poster button {
     padding: 8px 16px;
     background-color: #e83f57; 
     border: 0;
@@ -84,7 +100,8 @@ nav {
  }
 
  .poster.big button {
-    bottom: 16px;
+   padding: 16px 24px;
+   bottom: 16px;
  }
 
 footer {

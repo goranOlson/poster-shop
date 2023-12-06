@@ -38,7 +38,7 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    flex: 1 0 100%;  /* fill page height with main*/
+    flex: 1 0 100%;
  }
 
  .poster {
@@ -105,6 +105,24 @@ nav {
  }
 
 footer {
-    background-color: #444;
-    color: white;
+   height: 240px;
+   padding: 6% 16%;
+   padding: 30px 16%;
+   background-color: #444;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+footer > .column {
+   width: 33.33%;
+}
+
+footer ul {
+   list-style: none;
+   padding: 0;
+}
+footer a {
+   color: white;
+   text-decoration: none;
 }

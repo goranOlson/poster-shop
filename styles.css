@@ -75,9 +75,13 @@ nav:hover > .nav-list {
     background-color: white;
     color: black;
  }
+ .poster.big img {
+   width: 100%;;
+ }
     
  .poster > img {
     width: 100%;
+    width: 252px;
     height: fit-content;
  }
 
